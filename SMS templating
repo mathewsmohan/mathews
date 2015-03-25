@@ -16,7 +16,7 @@
  16 for name,number in name_number.iteritems():
  17         params = {
  18                   'src': 'enter source number', # Caller Id
- 19                    'dst' : number, # User Number to Call
+ 19                    'dst' : number, # will pull up each number from name_number till the loop is completed
  20                    'text' : 'Hi, ' + name + ' message from Plivo',
  21                    'type' : "sms",
  22                   }
